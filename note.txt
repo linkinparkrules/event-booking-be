@@ -1,0 +1,13 @@
+* Các bước: 
+_ cài đặt nodejs và vscode
+_ vào terminal của vscode. thêm lệnh: 
+    npm init -y
+=> cài đặt package.json, package-lock.json và node_modules
+_ cài các thư viện nodemon, express, mongodb bằng câu lệnh:
+    npm i nodemon
+    npm i express
+    npm i mongodb
+    npm i jsonwebtoken
+_ vào package.json, ở mục script, thêm dòng: 
+    "start": "nodemon index.js"
+_ để chạy chương trình, dùng câu lệnh: npm start
